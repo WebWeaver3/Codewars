@@ -1,0 +1,6 @@
+def count(s): #s is a string
+    dic = {}
+    for x in s: #go through the string
+        if x not in dic: #add keys to dictionary
+            dic[x] = s.count(x) #value is the count
+    return dic
