@@ -1,0 +1,10 @@
+/*
+Description:
+Your goal is to create a function that removes the first and last characters of a string. 
+You're given one parameter, the original string. You don't have to worry about strings with less than two characters.
+*/
+
+def remove_char(s):
+    if len(s) <=2: #check if string has 2 or less characters
+        return ''
+    return s[1:len(s)-1] #string has at least three characters, returs string without first and last character
